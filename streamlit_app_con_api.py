@@ -34,7 +34,7 @@ st.set_page_config(
 )
 
 # URL de la API
-API_BASE_URL = st.secrets.get("API_URL", "http://localhost:8000")
+API_BASE_URL = st.secrets.get("API_URL")
 
 # Título principal
 st.title("🎓 Análisis de Rendimiento Académico con Machine Learning + API")
