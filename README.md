@@ -210,20 +210,6 @@ Para completar la práctica, debes entregar:
 
 ---
 
-## 🎯 Criterios de Evaluación (10 puntos)
-
-| Criterio | Puntos |
-|----------|--------|
-| Preparación y limpieza del dataset | 2 pts |
-| Modelo supervisado implementado y analizado | 3 pts |
-| Modelo no supervisado implementado y graficado | 2 pts |
-| Aplicación Streamlit funcional | 3 pts |
-| **Total** | **10 pts** |
-
----
-
-## 🌟 Puntos Adicionales (Exoneración)
-
 ✅ **Implementados en este proyecto:**
 - ✨ **Integración con API REST** - FastAPI con endpoints para predicciones y clustering
 - ✨ **Aplicación Streamlit con API** - Consume la API en tiempo real
@@ -235,48 +221,6 @@ Para completar la práctica, debes entregar:
 - ✨ Despliegue en la nube (Streamlit Cloud / Railway)
 - ✨ Modelos adicionales (SVM, Gradient Boosting)
 - ✨ Sistema de autenticación en la API
-
----
-
-## 📚 Referencias y Recursos
-
-### Documentación
-- [Scikit-learn](https://scikit-learn.org/stable/)
-- [Pandas](https://pandas.pydata.org/docs/)
-- [Streamlit](https://docs.streamlit.io/)
-- [Plotly](https://plotly.com/python/)
-
-### Tutoriales Recomendados
-- [Machine Learning con Scikit-learn](https://scikit-learn.org/stable/tutorial/index.html)
-- [Clustering con K-Means](https://scikit-learn.org/stable/modules/clustering.html#k-means)
-- [Streamlit Tutorial](https://docs.streamlit.io/library/get-started)
-
----
-
-## ❓ Preguntas Frecuentes
-
-### ¿Qué modelo es mejor?
-Depende del objetivo:
-- **Para predicciones individuales:** Modelo Supervisado
-- **Para análisis de grupos:** Modelo No Supervisado
-- **Recomendación:** Usar ambos de forma complementaria
-
-### ¿Cómo mejoro el Accuracy?
-- Ajustar hiperparámetros del modelo
-- Agregar más características relevantes
-- Balancear las clases si están desbalanceadas
-- Probar diferentes algoritmos
-
-### ¿Qué significa el Silhouette Score?
-- Valores cercanos a 1: Clusters bien definidos
-- Valores cercanos a 0: Clusters superpuestos
-- Valores negativos: Puntos en el cluster incorrecto
-
-### ¿Por qué K=3 es óptimo?
-Según el análisis con Silhouette Score y el Método del Codo, K=3 ofrece el mejor balance entre:
-- Separación de clusters
-- Interpretabilidad
-- Número manejable de grupos
 
 ---
 
