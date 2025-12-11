@@ -204,11 +204,11 @@ if pagina == "🏠 Inicio":
     st.markdown("---")
     
     st.subheader("📚 Documentación de la API")
-    st.markdown("""
+    st.markdown(f"""
     La API REST está documentada automáticamente. Puedes acceder a:
     
-    - **Swagger UI (interactiva)**: [http://localhost:8000/docs](http://localhost:8000/docs)
-    - **ReDoc (documentación)**: [http://localhost:8000/redoc](http://localhost:8000/redoc)
+    - **Swagger UI (interactiva)**: [{API_BASE_URL}/docs]({API_BASE_URL}/docs)
+    - **ReDoc (documentación)**: [{API_BASE_URL}/redoc]({API_BASE_URL}/redoc)
     
     Desde allí puedes probar todos los endpoints directamente.
     """)
@@ -640,9 +640,9 @@ else:  # Prueba la API
                 st.error(f"Error: {e}")
     
     st.markdown("---")
-    st.info("""
+    st.info(f"""
     💡 **Tip:** También puedes usar la documentación interactiva de Swagger:
-    [http://localhost:8000/docs](http://localhost:8000/docs)
+    [{API_BASE_URL}/docs]({API_BASE_URL}/docs)
     """)
 
 # ============================================================================
